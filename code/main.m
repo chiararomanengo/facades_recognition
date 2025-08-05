@@ -1,5 +1,16 @@
 clc; clear all; close all
 
+%% Unzip folders 
+
+unzip('../LAS/22.zip', '../LAS/')
+delete '../LAS/22.zip';
+
+unzip('../LAS/38.zip', '../LAS/')
+delete '../LAS/38.zip';
+
+unzip('../LAS/51.zip', '../LAS/')
+delete '../LAS/51.zip';
+
 %% Facades recognition algorithm
 
 dirname=strcat('../LAS/');
