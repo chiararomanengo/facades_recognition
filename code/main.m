@@ -1,22 +1,24 @@
+%%
 clc; clear all; close all
 
-%% Unzip folders 
-
-unzip('../LAS/22.zip', '../LAS/')
-delete '../LAS/22.zip';
-
-unzip('../LAS/38.zip', '../LAS/')
-delete '../LAS/38.zip';
-
-unzip('../LAS/51.zip', '../LAS/')
-delete '../LAS/51.zip';
+%% Unzip folders
+% dirname=strcat('../LAS/');
+% unzip('../LAS/22.zip', '../LAS/')
+% delete '../LAS/22.zip';
+%
+% unzip('../LAS/38.zip', '../LAS/')
+% delete '../LAS/38.zip';
+%
+% unzip('../LAS/51.zip', '../LAS/')
+% delete '../LAS/51.zip';
 
 %% Facades recognition algorithm
 
-dirname=strcat('../LAS/');
+dirname=strcat('../../../PBF-FR-H3D-results/');
 Files_cell=dir(dirname);
 Files_cell(1:2)=[];
 mfeFINALE=[];
+
 
 for i=1:size(Files_cell,1) % for each chuck
     
