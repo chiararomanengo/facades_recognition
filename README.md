@@ -6,8 +6,6 @@ This repository contains a Matlab library for recognising from an LiDAR point cl
 
 The ```code``` directory contains our method that is described in Section 4.2 of the paper "PBF-FR: Partitioning Beyond Footprints for Facade Recognition in Urban Point Clouds".
 
-The ```LAS``` directory contains the pont clouds that ... . 
-
 
 ## How to use it
 To use this method, you can simply run the ```main.m``` file in Matlab. 
