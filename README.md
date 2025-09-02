@@ -11,7 +11,7 @@ The ```code``` directory contains our method that is described in Section 4.2 of
 To use this method, you can simply run the ```main.m``` file in Matlab. 
 
 The input is a set of .las files containing the point clouds representing one or more buildings (a chunk), possibly adjacent to each other, of a city (or a part of it).
-Each point cloud is processed and the method identifies the points belonging to facades.  
+Each point cloud is processed and the method identifies the points belonging to facades. The input can be generated using https://github.com/DanielaCabiddu/PBF-FR-partitioning.git.
 
 For each chuck, the output is a .txt file that cointains the label associated to each point of the original point cloud: 1 if the point belongs to a facade, 0 otherwise.
 
